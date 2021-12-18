@@ -10,7 +10,7 @@ const dbOptions = {
   host: dbHost,
   dialect: "mysql",
   port: 3306,
-  // logging: false,
+  logging: false,
 };
 
 const sequelize = new Sequelize(dbName, dbUser, dbPassword, dbOptions);
